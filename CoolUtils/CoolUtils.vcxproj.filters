@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="memory">
+      <UniqueIdentifier>{DEA8820D-CA4A-ADE3-B305-C1379F463434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns">
+      <UniqueIdentifier>{D64A541A-C217-AF25-EB30-9DCDD75CE4B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{169C8510-82B0-ADC1-4B32-5121B705AAF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Logger.h" />
+    <ClInclude Include="src\Logger_T.h" />
+    <ClInclude Include="src\MemoryTrack.h" />
+    <ClInclude Include="src\MemoryTrack_T.h" />
+    <ClInclude Include="src\memory\Allocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Allocator_T.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\ArenaAllocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\PoolAllocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\StackAllocator.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\Command.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\Event.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\Event_T.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\Singlton.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\patterns\utils.h">
+      <Filter>patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\defer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Logger.cpp" />
+    <ClCompile Include="src\memory\Allocator.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\ArenaAllocator.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\PoolAllocator.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\StackAllocator.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
